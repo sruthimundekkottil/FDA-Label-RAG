@@ -1,6 +1,6 @@
-# FDA-Label-Agent
+# FDA-Label-RAG
 
-A question-answering agent over FDA drug labels (openFDA, 30 common drugs). It
+A question-answering RAG system over FDA drug labels (openFDA, 30 common drugs). It
 searches the labels, answers with citations to the exact label passages, and
 says so when the labels don't contain the answer. It is built on a hybrid
 retrieval pipeline (vector + BM25 + reranker) and compared against a simple
